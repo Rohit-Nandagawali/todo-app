@@ -1,0 +1,42 @@
+.Login {
+    width: 446px;
+    max-width: 446px;
+
+    .header {
+        h1 {
+            max-width: 279px;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: 500;    
+            font-size: 36px;
+            line-height: 43px;
+            color: #000000;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            p{
+                margin: 20px auto;
+                text-align: center;
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                
+                & span{
+                    
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                cursor: pointer;
+                color: #81B2F3;
+                }
+            }
+            
+        }
+       
+    }
+}
